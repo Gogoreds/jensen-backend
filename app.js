@@ -4,7 +4,7 @@ const express = require("express")
 process.env.PORT = 3000
 
 app.get("/", (req ,res)=>{
-    res.status(200).send({"STATUS":"SUCCESS"})
+    res.status(200).send({"STATUS":"SUCCESSFUL"})
     })
 
 app.listen(3000 , ()=>{
